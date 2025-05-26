@@ -50,7 +50,7 @@ Primary Key একটি টেবিলের এমন একটি কলা�
 
 
 
-### 6.What are the LIMIT and OFFSET clauses used for.
+## 6.What are the LIMIT and OFFSET clauses used for?
 
 Ans:
 ### Limit এর ব্যবহার:
