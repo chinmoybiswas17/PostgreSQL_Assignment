@@ -1,12 +1,9 @@
-
-
 -- Rangers table
 CREATE TABLE rangers (
     ranger_id SERIAL PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
     region VARCHAR(100) NOT NULL
 );
-
 
 
 -- Species table
@@ -18,8 +15,6 @@ CREATE TABLE species (
     conservation_status VARCHAR(50) NOT NULL
 );
 
-
-
 -- Sightings table
 CREATE TABLE sightings (
     sighting_id SERIAL PRIMARY KEY,
@@ -29,7 +24,6 @@ CREATE TABLE sightings (
     sighting_time TIMESTAMP NOT NULL,
     notes TEXT
 );
-
 
 -- Rangers
 INSERT INTO rangers (name, region) VALUES 
@@ -87,8 +81,6 @@ JOIN species sp ON s.species_id = sp.species_id
 JOIN rangers r ON s.ranger_id = r.ranger_id
 ORDER BY s.sighting_time DESC
 LIMIT 2;
-
-
 
 
 --Problem 7:
