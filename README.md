@@ -92,24 +92,24 @@ Ans:PostgreSQL-এ JOIN অপারেশন বিভিন্ন টেবি
 JOIN একটি সাধারণ কলাম ব্যবহার করে দুই বা ততোধিক টেবিলের রো মিলিয়ে কাজ করে।
 সাধারনত কয়েক ধরনের JOIN রয়েছে।প্রত্যেক JOIN এর আলাদা আলাদা কাজ রয়েছে।তা নিচে দেওয়া হল:
 
-১।INNER JOIN-কেবল সেই রো দেখায় যেখানে দুই টেবিলেই মিল রয়েছে।
+১।INNER JOIN:কেবল সেই রো দেখায় যেখানে দুই টেবিলেই মিল রয়েছে।
 
 <img src="https://github.com/user-attachments/assets/de1f2a36-338d-438f-b92a-32facf8a25ae" width="400"/>
 
-২।LEFT JOIN-বাম টেবিলের সব রো দেখায়, এমনকি ডান টেবিলে মিল না থাকলেও।
+২।LEFT JOIN:বাম টেবিলের সব রো দেখায়, এমনকি ডান টেবিলে মিল না থাকলেও।
 
 
 <img src="https://github.com/user-attachments/assets/1b567b35-cec6-492a-b38d-9ba55abbacb3" width="400"/>
 
-৩।RIGHT JOIN-ডান টেবিলের সব রো দেখায়, বাম টেবিলে মিল না থাকলেও।
+৩।RIGHT JOIN:ডান টেবিলের সব রো দেখায়, বাম টেবিলে মিল না থাকলেও।
 
 <img src="https://github.com/user-attachments/assets/2c6cc507-dbdb-46ce-9954-2f80fe9b43e2" width="400"/>
 
-৪।FULL OUTER JOIN-দুই টেবিলের সব রো দেখায়, মিল থাক বা না থাক।
+৪।FULL OUTER JOIN:দুই টেবিলের সব রো দেখায়, মিল থাক বা না থাক।
 
 <img src="https://github.com/user-attachments/assets/2830ca91-6e75-4cce-b5b0-c3ef100f40fe" width="400"/>
 
-৫।CROSS JOIN-প্রতিটি রো অন্য টেবিলের প্রতিটি রোর সাথে যুক্ত হয়।
+৫।CROSS JOIN:প্রতিটি রো অন্য টেবিলের প্রতিটি রোর সাথে যুক্ত হয়।
 
 <img src="https://github.com/user-attachments/assets/5a14ff85-03d3-454e-8809-ce836342b24e" width="400"/>
 
