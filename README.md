@@ -86,6 +86,7 @@ Ans:PostgreSQL-এ JOIN অপারেশন বিভিন্ন টেবি
 ###  how does it work in PostgreSQL:
 JOIN একটি সাধারণ কলাম ব্যবহার করে দুই বা ততোধিক টেবিলের রো মিলিয়ে কাজ করে।
 সাধারনত কয়েক ধরনের JOIN রয়েছে।প্রত্যেক JOIN এর আলাদা আলাদা কাজ রয়েছে।তা নিচে দেওয়া হল:
+
 ১।INNER JOIN-কেবল সেই রো দেখায় যেখানে দুই টেবিলেই মিল রয়েছে।
 
 <img src="https://github.com/user-attachments/assets/de1f2a36-338d-438f-b92a-32facf8a25ae" width="400"/>
