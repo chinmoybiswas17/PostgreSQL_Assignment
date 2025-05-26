@@ -32,6 +32,8 @@ Ans:PostgreSQL-এ একটি Schema হল ডেটাবেসের মধ
 
 ৪।অ্যাক্সেস নিয়ন্ত্রণ:স্কিমাগুলি ডেটা অ্যাক্সেসের উপর সূক্ষ্ম নিয়ন্ত্রণের সুযোগ দেয়।
 
+<img src="https://github.com/user-attachments/assets/ec18b7f6-b413-4af6-878f-4439afa14cf2" width="400"/>
+
 ## 3.Explain the Primary Key and Foreign Key concepts in PostgreSQL.
 Ans:
 ### Primary Key:
