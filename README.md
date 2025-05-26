@@ -21,6 +21,9 @@ name, age এবং major হল অন্যান্য তথ্যের জ
 
 ## 2.What is the purpose of a database schema in PostgreSQL?
 Ans:PostgreSQL-এ একটি Schema হল ডেটাবেসের মধ্যে একটি লজিক্যাল কাঠামো, যা বিভিন্ন টেবিল, ভিউ, ফাংশন, ইনডেক্স ইত্যাদি সংগঠিতভাবে সংরক্ষণ করে।এটি একটি নকশার মতো কাজ করে যা সংজ্ঞায়িত করে কিভাবে ডেটা সংগঠিত হবে|
+উদাহরণঃ
+
+<img src="https://github.com/user-attachments/assets/ec18b7f6-b413-4af6-878f-4439afa14cf2" width="400"/>
 
 ### ডেটাবেস স্কিমার প্রধান উদ্দেশ্যগুলো হল:
 
@@ -31,9 +34,7 @@ Ans:PostgreSQL-এ একটি Schema হল ডেটাবেসের মধ
 ৩।সিকিউরিটি ও পারমিশন কন্ট্রোল:স্কিমা-ভিত্তিক পারমিশন দিয়ে নির্দিষ্ট ইউজারকে শুধু নির্দিষ্ট অংশে কাজ করতে দেওয়া যায়।
 
 ৪।অ্যাক্সেস নিয়ন্ত্রণ:স্কিমাগুলি ডেটা অ্যাক্সেসের উপর সূক্ষ্ম নিয়ন্ত্রণের সুযোগ দেয়।
-উদাহরণঃ
 
-<img src="https://github.com/user-attachments/assets/ec18b7f6-b413-4af6-878f-4439afa14cf2" width="400"/>
 
 ## 3.Explain the Primary Key and Foreign Key concepts in PostgreSQL.
 Ans:
