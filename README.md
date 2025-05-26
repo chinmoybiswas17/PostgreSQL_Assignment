@@ -76,7 +76,7 @@ OFFSET clause টি নির্দিষ্ট সংখ্যক রেকর
 
 <img src="https://github.com/user-attachments/assets/5b032ffb-ee2c-41f7-bbd8-db90fe04c9a0" width="400"/>
 
-এখানে প্রথমে রেকর্ডগুলো id অনুযায়ী সাজানো হয়সে।তারপর OFFSET 5 দিয়ে ৫টি বাদ দেওয়া হয়সে।তারপর LIMIT 5 দিয়ে ৫টি রো দেখানো হয়সে।
+এখানে প্রথমে রেকর্ডগুলো id অনুযায়ী সাজানো হয়সে।তারপর OFFSET 5 দিয়ে ৫টি বাদ দেওয়া হয়েছে।তারপর LIMIT 5 দিয়ে ৫টি রো দেখানো হয়সে।
 
 
 ## 8.What is the significance of the JOIN operation, and how does it work in PostgreSQL?
