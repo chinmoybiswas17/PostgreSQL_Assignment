@@ -78,8 +78,28 @@ OFFSET clause টি নির্দিষ্ট সংখ্যক রেকর
 
 Ans:PostgreSQL-এ JOIN অপারেশন বিভিন্ন টেবিলের মধ্যে সম্পর্কিত ডেটা একত্রিত করতে ব্যবহৃত হয়। এটি রিলেশনাল ডেটাবেসের একটি গুরুত্বপূর্ণ অংশ,যা একাধিক টেবিলের মধ্যে সম্পর্ক তৈরি করে এবং সেই সম্পর্কের ভিত্তিতে তথ্য একত্রে দেখায়।
 
-### What is the significance of the JOIN operation:
+### Significance of the JOIN operation:
 *JOINs বিভিন্ন টেবিলে সংরক্ষিত ডেটা একত্রিত করতে পারে, যা রিলেশনাল ডেটাবেস ডিজাইনের জন্য অপরিহার্য।
 *টেবিলগুলিতে ডেটা পুনরাবৃত্তি করার পরিবর্তে, JOINs সম্পর্কিত তথ্যের আরও দক্ষ স্টোরেজ এবং পুনরুদ্ধারের সুযোগ দেয়।
 *রিলেশনাল ডেটাবেজ ম্যানেজমেন্ট সিস্টেমে টেবিলগুলো একে অপরের সাথে কীভাবে সম্পর্কযুক্ত, তা জানতে এবং যৌক্তিকভাবে সেই ডেটা বিশ্লেষণ করতে JOIN অপরিহার্য।
+
+###  how does it work in PostgreSQL:
+JOIN একটি সাধারণ কলাম ব্যবহার করে দুই বা ততোধিক টেবিলের রো মিলিয়ে কাজ করে।
+সাধারনত কয়েক ধরনের JOIN রয়েছে।প্রত্যেক JOIN এর আলাদা আলাদা কাজ রয়েছে।তা নিচে দেওয়া হল:
+১।INNER JOIN-কেবল সেই রো দেখায় যেখানে দুই টেবিলেই মিল রয়েছে।
+
+<img src="https://github.com/user-attachments/assets/de1f2a36-338d-438f-b92a-32facf8a25ae" width="400"/>
+২।LEFT JOIN-বাম টেবিলের সব রো দেখায়, এমনকি ডান টেবিলে মিল না থাকলেও।
+
+
+<img src="https://github.com/user-attachments/assets/1b567b35-cec6-492a-b38d-9ba55abbacb3" width="400"/>
+৩।RIGHT JOIN-ডান টেবিলের সব রো দেখায়, বাম টেবিলে মিল না থাকলেও।
+
+<img src="https://github.com/user-attachments/assets/2c6cc507-dbdb-46ce-9954-2f80fe9b43e2" width="400"/>
+৪।FULL OUTER JOIN-দুই টেবিলের সব রো দেখায়, মিল থাক বা না থাক।
+
+<img src="https://github.com/user-attachments/assets/2830ca91-6e75-4cce-b5b0-c3ef100f40fe" width="400"/>
+৫।CROSS JOIN-প্রতিটি রো অন্য টেবিলের প্রতিটি রোর সাথে যুক্ত হয় (Cartesian Product)।
+
+<img src="https://github.com/user-attachments/assets/5a14ff85-03d3-454e-8809-ce836342b24e" width="400"/>
 
